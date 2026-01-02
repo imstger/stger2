@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <LinearLayout
+	       		android:layout_width="match_parent"
+        		android:layout_height="match_parent"
+        		android:gravity="center"
+        		android:orientation="vertical"  >
+        
+        	<TextView
+		        android:id="@+id/tv1"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="恭喜这位来自"
+		        android:textSize="18sp"
+		        android:textColor="#e89080" />
+	
+	        <TextView
+	            android:id="@+id/tv2"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="北极圈"
+	            android:textSize="18sp"
+	        	android:textColor="#e89080" />
+	
+	        <TextView
+	            android:id="@+id/tv3"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="的"
+	            android:textSize="18sp"
+	        	android:textColor="#e89080" />
+	
+	        <TextView
+	            android:id="@+id/tv4"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="小明"
+	            android:textSize="18sp"
+	        	android:textColor="#e89080" />
+	
+	    </LinearLayout>
+	
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical"
+	        android:layout_margin="20dp" >
+	        
+	        <TextView
+	        android:id="@+id/textView2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="别磨磨唧唧了，选一下，唱歌还是摄影呀"
+	        android:textColor="#9898c8"
+	        android:textSize="15dp" />
+	
+	    <RadioGroup
+	        android:id="@+id/radioGroup1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" >
+	
+	        <RadioButton
+	            android:id="@+id/radio0"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="唱歌" />
+	
+	        <RadioButton
+	            android:id="@+id/radio1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="摄影" />
+	
+	    </RadioGroup>
+	    </LinearLayout>
+	
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:layout_marginLeft="20dp" >
+	
+	        <TextView
+	            android:id="@+id/textView4"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="书法还是吉他"
+	            android:textColor="#9898c8"
+	      		android:textSize="15sp" />
+	        
+	        <Spinner
+	            android:id="@+id/spinner1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"/>
+	
+	    </LinearLayout>
+	
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical"
+	        android:layout_margin="20dp" >
+	    <TextView
+	        android:id="@+id/textView3"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="当然，你也可以有其他选择"
+	        android:textColor="#909890"
+	        android:textSize="15sp" />
+	
+	    <CheckBox
+	        android:id="@+id/checkBox1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="看书" />
+	
+	    <CheckBox
+	        android:id="@+id/checkBox2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="画画" />
+	
+	    <CheckBox
+	        android:id="@+id/checkBox3"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="跳舞" />
+	
+	    <CheckBox
+	        android:id="@+id/checkBox4"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="跑步" />
+	    
+	    </LinearLayout>
+	
+	    
+	    <Button
+	        android:id="@+id/button1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="提交"
+	        android:layout_gravity="center"
+	        android:textColor="#98b0e0"
+	        android:textSize="13sp"
+	        android:background="#d8d8f0" />
+	        </LinearLayout>
+</ScrollView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">anonymity</string>
+    <string name="action_settings">Settings</string>
+    <string name="t1">限制内容输入：1234567890,+-*/%()</string>
+	<string name="t2">限制输入内容：只限数字</string>
+	<string name="t3">请选择</string>
+	<string name="t4">文字颜色</string>
+	<string name="t5">设置输入框不能被编辑</string>
+	<string name="gbjd">宫保鸡丁很好吃，超级好吃，大家快来吃，真的好吃，不吃的人都说后悔，吃过的人都在想下一顿了，快来，千万不要错过这么美味的一道佳肴！！！</string>
+</resources>

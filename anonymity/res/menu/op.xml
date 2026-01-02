@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/wo1"
+        android:alphabeticShortcut="s"
+        android:title="小号字体"
+        android:showAsAction="never"/>
+    <item
+        android:id="@+id/wo2"
+        android:alphabeticShortcut="m"
+        android:title="中号字体"/>
+	<item
+        android:id="@+id/wo3"
+        android:alphabeticShortcut="l"
+        android:title="大号字体"/>
+</menu>

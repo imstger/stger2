@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="shaya">
+        <item>书法</item>
+        <item>吉他</item>   
+    </string-array>
+</resources>

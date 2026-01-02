@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/owo1"
+        android:alphabeticShortcut="r"
+        android:title="红"
+        android:showAsAction="never"/>
+    <item
+        android:id="@+id/owo2"
+        android:alphabeticShortcut="g"
+        android:title="绿"/>
+	<item
+        android:id="@+id/owo3"
+        android:alphabeticShortcut="b"
+        android:title="蓝"/>
+
+</menu>
